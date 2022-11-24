@@ -1,0 +1,37 @@
+name=input('Enter Name')
+sno=int(input('Enter Sno'))
+group=input('Enter Group')
+s1=int(input('Enter s1 marks'))
+s2=int(input('Enter s2 marks'))
+s3=int(input('Enter s3 marks'))
+print('Name:',name)
+print('Sno:',sno)
+print('Group:',group)
+print('s1:',s1)
+print('s2:',s2)
+print('s3:',s3)
+if(s1>=35 and s2>=35 and s3>=35):
+    print("PASS")
+else:
+     print("FAIL")
+    
+
+
+
+
+
+output:
+Enter Name manasa
+Enter Sno 256839
+Enter Group maircs
+Enter s1 marks 34
+Enter s2 marks21
+Enter s3 marks89
+Name:  manasa
+Sno: 256839
+Group:  maircs
+s1: 34
+s2: 21
+s3: 89
+FAIL
+
